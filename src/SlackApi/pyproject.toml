@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slack-api"
+version = "2024.07.0001"
+authors = [
+    {name = "Michael Hall", email = "michael@rubberduck-labs.com"}
+]
+description="Base Authentication"
+readme = "README.md"
+dependencies = [
+    "fastapi"
+]
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9"
+]
+
+[project.urls]
+Homepage="https://engineerhub.io"
+[project.scripts]
+auth-cli = "app:main_cli"
+
+
