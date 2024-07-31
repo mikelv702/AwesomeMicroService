@@ -12,14 +12,16 @@ I find to be useful to me.
 - Slack Application Bot
 
 
-## Career Compass
+## Microservices
+
+### Career Compass
 
 CRUD application for handling tracking daily, weekly, and monthly completed tasks and projects
 This data will be collected and used to build resume, promotion documentation, and more. 
 But will start simple for tracking tasks with a web frontend, and a slack intergration. 
 
 
-## Slack
+### Slack API
 
 Simple slack bot to interact with the microservices being developed and deployed. 
 
@@ -27,3 +29,8 @@ Simple slack bot to interact with the microservices being developed and deployed
 export SLACK_BOT_TOKEN=xoxb-XXXXXXXXXXXXXXXXX
 export SLACK_SIGNING_SECRET=XXXXXXXXXXXXXXXXX
 ```
+
+## Deployment
+
+Deploying the microservices we will use Docker and Docker compose to deploy the services. 
+Using Traefik as a reverse proxy for the api
