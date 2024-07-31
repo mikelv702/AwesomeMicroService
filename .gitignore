@@ -1,3 +1,4 @@
 .venv
 _README.md
 .idea
+__pycache__
